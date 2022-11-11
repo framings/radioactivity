@@ -23,7 +23,7 @@ EmergencyReadmission <- function (){
     dir.create(path = pathstr, showWarnings = TRUE, recursive = TRUE)
   }
 
-  utils::write.table(x = surgeons,
+  utils::write.table(x = emergency,
                      file = file.path(pathstr, 'england_acute_trusts_emergency_readmissions.csv'),
                      append = FALSE,
                      sep = ',',
