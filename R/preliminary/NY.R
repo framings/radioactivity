@@ -11,14 +11,35 @@
 #'
 NY <- function () {
 
+
+  # Probably a mortality ratio
   X <- read.delim2(file = 'data/research/legacy/NY-surgramr.txt', col.names = 'value', header = FALSE, sep = '\n')
   Y <- paste(X$value, collapse = ' ')
   Z <- unlist(strsplit(x = Y, split = ' '))
 
+
+  # Probably the number of cases
   A <- read.delim2(file = 'data/research/legacy/NY-surgvol.txt', col.names = 'value', header = FALSE, sep = '\n')
   B <- paste(A$value, collapse = ' ')
   C <- unlist(strsplit(x = B, split = ' '))
 
+
+  # Combining the data series
   surgeons <- data.frame(surgamr = Z[!(Z %in% '')], surgvol = C[!(C %in% '')])
+
+
+  # Save; foremost, ensure the storage directory exists
+  pathstr <- file.path(getwd(), 'data', 'experimental')
+  if (!dir.exists(paths = pathstr)){
+    dir.create(path = pathstr, showWarnings = TRUE, recursive = TRUE)
+  }
+
+  utils::write.table(x = surgeons,
+                     file = file.path(pathstr, 'new_york_bypass_surgeons.csv'),
+                     append = FALSE,
+                     sep = ',',
+                     row.names = FALSE,
+                     col.names = TRUE,
+                     fileEncoding = 'UTF-8')
 
 }
