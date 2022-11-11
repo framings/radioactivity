@@ -8,3 +8,7 @@
 source(file = 'R/preliminary/NY.R')
 NY()
 
+# Prepare the England Acute Trusts' Emergency Readmission data
+source(file = 'R/preliminary/EmergencyReadmission.R')
+EmergencyReadmission()
+
