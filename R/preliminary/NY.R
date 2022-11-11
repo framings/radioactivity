@@ -9,7 +9,7 @@
 #' @description Reads and structures the New York State Coronary Artery
 #'              Bypass Graft (CABG) data
 #'
-NY <- function () {
+NY <- function() {
 
 
   # Probably a mortality ratio
@@ -29,7 +29,7 @@ NY <- function () {
 
 
   # Save; foremost, ensure the storage directory exists
-  pathstr <- file.path(getwd(), 'data', 'experimental')
+  pathstr <- file.path(getwd(), 'data', 'research', 'experimental')
   if (!dir.exists(paths = pathstr)){
     dir.create(path = pathstr, showWarnings = TRUE, recursive = TRUE)
   }
