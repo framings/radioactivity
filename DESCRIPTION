@@ -1,0 +1,9 @@
+Package: contrasts
+Type: Package
+Title: Contrasting
+Version: 1.0
+Date: 2022-11-11
+Author: greyhypotheses
+Maintainer: Who to complain to <yourfault@somewhere.net>
+Description: Exploring modelling, analysis, and graphing mathematics/algorithms for comparing & contrasting
+License: ...
