@@ -8,6 +8,7 @@
 source(file = 'R/preliminary/SurgeonsNY.R')
 SurgeonsNY()
 
+# Prepare the NY Hospitals data
 source(file = 'R/preliminary/HospitalsNY.R')
 HospitalsNY()
 
@@ -15,3 +16,10 @@ HospitalsNY()
 source(file = 'preliminary/EnglandEmergencyReadmission.R')
 EnglandEmergencyReadmission()
 
+# Prepare the England Acute Trusts' Bypass Surgeries data
+source(file = 'R/preliminary/EnglandBypass.R')
+EnglandBypass()
+
+# Prepare the Teenage Pregnancies data
+source(file = 'R/preliminary/TeenagePregnancies.R')
+TeenagePregnancies()
