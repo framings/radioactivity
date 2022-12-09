@@ -26,6 +26,8 @@ NY <- function() {
 
   # Combining the data series
   surgeons <- data.frame(surgamr = Z[!(Z %in% '')], surgvol = C[!(C %in% '')])
+  surgeons$surgamr <- as.numeric(surgeons$surgamr)
+  surgeons$surgvol <- as.numeric(surgeons$surgvol)
 
 
   # Save; foremost, ensure the storage directory exists
