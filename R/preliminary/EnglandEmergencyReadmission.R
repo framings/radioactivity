@@ -1,4 +1,4 @@
-# Title     : EmergencyReadmission.R
+# Title     : EnglandEmergencyReadmission.R
 # Objective : Reads and structures emergency readmission data of a set of hospitals
 # Created by: greyhypotheses
 # Created on: 11/11/2022
@@ -9,7 +9,7 @@
 #' @note Emergency (within 30 days) readmission rates following discharge from 140 NHS
 #'       acute trusts [in England], 2002–2003
 #'
-EmergencyReadmission <- function (){
+EnglandEmergencyReadmission <- function (){
 
 
   # The data
