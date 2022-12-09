@@ -1,4 +1,4 @@
-# Title     : NY.R
+# Title     : SurgeonsNY.R
 # Objective : Structuring the New York State Coronary Artery Bypass Graft (CABG) data
 # Created by: greyhypotheses
 # Created on: 11/11/2022
@@ -9,7 +9,7 @@
 #' @description Reads and structures the New York State Coronary Artery
 #'              Bypass Graft (CABG) data
 #'
-NY <- function() {
+SurgeonsNY <- function() {
 
 
   # Probably a mortality ratio
@@ -26,6 +26,8 @@ NY <- function() {
 
   # Combining the data series
   surgeons <- data.frame(surgamr = Z[!(Z %in% '')], surgvol = C[!(C %in% '')])
+  surgeons$surgamr <- as.numeric(surgeons$surgamr)
+  surgeons$surgvol <- as.numeric(surgeons$surgvol)
 
 
   # Save; foremost, ensure the storage directory exists

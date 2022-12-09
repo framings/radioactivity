@@ -5,10 +5,21 @@
 
 
 # Prepare the NY Coronary Artery Bypass Graft data
-source(file = 'R/preliminary/NY.R')
-NY()
+source(file = 'R/preliminary/SurgeonsNY.R')
+SurgeonsNY()
+
+# Prepare the NY Hospitals data
+source(file = 'R/preliminary/HospitalsNY.R')
+HospitalsNY()
 
 # Prepare the England Acute Trusts' Emergency Readmission data
-source(file = 'R/preliminary/EmergencyReadmission.R')
-EmergencyReadmission()
+source(file = 'R/preliminary/EnglandEmergencyReadmission.R')
+EnglandEmergencyReadmission()
 
+# Prepare the England Acute Trusts' Bypass Surgeries data
+source(file = 'R/preliminary/EnglandBypass.R')
+EnglandBypass()
+
+# Prepare the Teenage Pregnancies data
+source(file = 'R/preliminary/TeenagePregnancies.R')
+TeenagePregnancies()

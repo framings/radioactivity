@@ -1,26 +1,26 @@
-r,n,cluster
-41,2456,5 - Acute teaching
-21,996,5 - Acute teaching
-41,2059,5 - Acute teaching
-28,2110,5 - Acute teaching
-47,2741,5 - Acute teaching
-35,1438,5 - Acute teaching
-69,2155,5 - Acute teaching
-40,1526,5 - Acute teaching
-61,3139,5 - Acute teaching
-51,1664,5 - Acute teaching
-44,3079,5 - Acute teaching
-49,2323,5 - Acute teaching
-55,1549,5 - Acute teaching
-67,2470,5 - Acute teaching
-67,1876,5 - Acute teaching
-50,2391,5 - Acute teaching
-36,2083,5 - Acute teaching
-90,3268,4 - Acute specialist
-84,3894,4 - Acute specialist
-34,1879,3 - Large acute or multi-service
-57,2133,3 - Large acute or multi-service
-19,760,3 - Large acute or multi-service
-40,1970,3 - Large acute or multi-service
-17,762,3 - Large acute or multi-service
-19,573,1 - Small acute or multi-service
+"r","n","cluster","cluster_code"
+41,2456,"5 - Acute teaching",5
+21,996,"5 - Acute teaching",5
+41,2059,"5 - Acute teaching",5
+28,2110,"5 - Acute teaching",5
+47,2741,"5 - Acute teaching",5
+35,1438,"5 - Acute teaching",5
+69,2155,"5 - Acute teaching",5
+40,1526,"5 - Acute teaching",5
+61,3139,"5 - Acute teaching",5
+51,1664,"5 - Acute teaching",5
+44,3079,"5 - Acute teaching",5
+49,2323,"5 - Acute teaching",5
+55,1549,"5 - Acute teaching",5
+67,2470,"5 - Acute teaching",5
+67,1876,"5 - Acute teaching",5
+50,2391,"5 - Acute teaching",5
+36,2083,"5 - Acute teaching",5
+90,3268,"4 - Acute specialist",4
+84,3894,"4 - Acute specialist",4
+34,1879,"3 - Large acute or multi-service",3
+57,2133,"3 - Large acute or multi-service",3
+19,760,"3 - Large acute or multi-service",3
+40,1970,"3 - Large acute or multi-service",3
+17,762,"3 - Large acute or multi-service",3
+19,573,"1 - Small acute or multi-service",1
