@@ -8,7 +8,7 @@
 #'
 #'
 TeenagePregnancies <- function (){
-  
+
 
   # The data
   pregnancies <- read.table(file = 'data/research/legacy/preg.data.txt', header = TRUE,  sep = '')
