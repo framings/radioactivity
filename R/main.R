@@ -13,7 +13,7 @@ source(file = 'R/preliminary/HospitalsNY.R')
 HospitalsNY()
 
 # Prepare the England Acute Trusts' Emergency Readmission data
-source(file = 'preliminary/EnglandEmergencyReadmission.R')
+source(file = 'R/preliminary/EnglandEmergencyReadmission.R')
 EnglandEmergencyReadmission()
 
 # Prepare the England Acute Trusts' Bypass Surgeries data
