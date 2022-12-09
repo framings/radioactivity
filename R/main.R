@@ -5,8 +5,8 @@
 
 
 # Prepare the NY Coronary Artery Bypass Graft data
-source(file = 'R/preliminary/NY.R')
-NY()
+source(file = 'preliminary/SurgeonsNY.R')
+SurgeonsNY()
 
 # Prepare the England Acute Trusts' Emergency Readmission data
 source(file = 'R/preliminary/EmergencyReadmission.R')
