@@ -11,7 +11,7 @@ TeenagePregnancies <- function (){
 
 
   # The data
-  pregnancies <- read.table(file = 'data/research/legacy/preg.data.txt', header = TRUE,  sep = '')
+  pregnancies <- read.table(file = 'data/research/legacy/preg.data.txt', header = TRUE, sep = '')
   pregnancies <- dplyr::rename(pregnancies, 'POP2001' = 'POP200')
 
   # Save; foremost, ensure the storage directory exists
