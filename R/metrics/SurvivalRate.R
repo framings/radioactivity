@@ -35,7 +35,7 @@ SurvivalRate <- function () {
 
 
   # a preview
-  ggplot(data = frame, mapping = aes(x = precision, y = estimate, group = measure, colour = parent)) +
+  diagram <- ggplot(data = frame, mapping = aes(x = precision, y = estimate, group = measure, colour = parent)) +
     scale_colour_manual(values = c('olivedrab', 'orange', 'black', 'dodgerblue')) +
     geom_point(alpha = 0.65, size = 0.2) +
     geom_hline(yintercept = 0, colour = 'black', alpha = 0.35) +
@@ -48,6 +48,7 @@ SurvivalRate <- function () {
     xlab(label = '\nprecision\n') +
     ylab(label = '\nexcess rate of\nsurvival\n') +
     guides(colour = guide_legend(title = 'Survival Estimates & Standard\nDeviation Control Limits'))
+  print(diagram)
 
 
   # write
